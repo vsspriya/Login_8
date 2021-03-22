@@ -1,0 +1,85 @@
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+    <style>
+        body {
+            /* background-color: #f6fba2;
+            background-image: linear-gradient(315deg, #f6fba2 0%, #abf1ee 74%); */
+            font-family: "Trirong", serif;
+            background-image: url('../image/bg1.jpg');
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+       
+        form
+        {
+justify-content: center;
+/* text-align: center; */
+width: 400px;
+  height: 400px;
+  padding: 30px ;
+  margin-top:150px;
+  top:30%;
+  left:20%;
+  position: absolute;
+  justify-content: center;
+  border: 1px solid rgb(0, 204, 255);
+  /* transform: translate(-50%,-50%); */
+  box-sizing: border-box;
+  
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+        }
+     
+      
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+    <div class="row">
+        
+            <div class="col-md-3">
+            </div>
+            <div class="col-md-6">
+                <h3 class="login-heading mt-4"><center>Account Login<center></h3>
+                <form> 
+                    <div class="align-items-center justify-content-center">
+                    <div class="form-label-group">
+                        <input  type="email" id="inputEmail" class="form-control" placeholder="Email address" width="100"
+                            height="50" style=" border-radius: 30px; height:50px ;width: 350px; margin-top:40px;" required autofocus>
+
+                        <br>
+                    </div>
+
+                    <div class="form-label-group">
+                        <input type="password" id="inputPassword" class="form-control" placeholder="Password"
+                            width="150" height="100" style=" border-radius: 30px;height:50px ;width: 350px;" required>
+
+                        <br>
+                    </div>
+
+                    <div class="custom-control custom-checkbox mb-3">
+                        <input type="checkbox" class="custom-control-input" id="customCheck1">
+                        <label class="custom-control-label" for="customCheck1">Remember password</label>
+                    </div>
+                    <button class="btn btn-lg btn-primary btn-block btn-login text-uppercase font-weight-bold mb-2"
+                        type="submit" style=" border-radius: 30px;height:50px ;width: 350px;">Sign in</button>
+                    <div class="text-left">
+                        <a class="small" href="#">Forgot password?</a>
+                    </div>
+                    </div>
+                </form>
+           
+            </div>
+            <div class="col-md-3">
+            </div>
+        </div>
+       
+    </div>
+   
+</body>
+
+</html>
